@@ -128,7 +128,6 @@ class TgUploader:
             if self.__as_doc or notMedia:
                 self.__sent_msg = self.__sent_msg.reply_document(document=up_path,
                                                              quote=True,
-                                                             thumb=thumb,
                                                              caption=cap_mono,
                                                              parse_mode=enums.ParseMode.HTML,
                                                              disable_notification=True,
